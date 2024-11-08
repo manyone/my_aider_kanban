@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.task-input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.task-input-container input[type="text"] {
+    width: 200px;
+    margin-right: 5px;
+}
+
+.task-input-container input[type="color"] {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.task-input-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-input-container button:hover {
+    background-color: #45a049;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    width: 30%;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.task-list {
+    min-height: 100px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.task {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: move;
+    position: relative;
+}
+
+.update-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.update-form input[type="text"] {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.update-form input[type="color"] {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.update-form button {
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-form button:hover {
+    background-color: #45a049;
+}
+
+#delete-task {
+    background-color: #f44336;
+}
+
+#delete-task:hover {
+    background-color: #d32f2f;
+}
